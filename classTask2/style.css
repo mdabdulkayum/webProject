@@ -1,0 +1,209 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    padding-left: 20px;
+    margin-right: 50px;
+    display: block;
+    display:flex;
+    position: fixed;
+    width: 99%;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+
+    
+}
+.navigation li{
+    list-style-type: none;
+    float: left;
+    margin: 8px;
+    font-size: 30px;
+    align-items: end;
+
+}
+
+.navigation a{
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    padding: 8px;
+    background-color:darkturquoise;
+    font-weight: bold;
+
+}
+.navigation a:link{
+    padding: 8px;
+    color: black;
+
+}
+.navigation a:visited{
+    padding: 8px;
+    color: black;
+
+}
+.navigation a:active{
+    padding: 8px;
+    color: black;
+
+}
+            /* Home page - index.html */
+.about{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 15%;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.about-text{
+    margin-top: 15%;
+    font-size: 22px;
+}
+.about-text span{
+    background-color: rgb(176, 176, 255);
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about img{
+    margin-left: 30%;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    padding-left: 15%;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.introduction p{
+    margin-top: 15%;
+    font-size: 25px;
+    text-align: justify;
+    padding-left:25%;
+}
+.contact_info{
+    font-size: 25px;
+    padding-left: 25%;
+}
+.contact_info span{
+    background-color:darkturquoise;
+    padding: 8px;
+    
+    
+    
+}
+.contact_info a{
+    text-decoration: none;
+}
+.contact_info a:hover{
+    padding: 8px;
+    background-color: aquamarine;
+
+}
+.contact_info a:link{
+    color: black;
+
+}
+.contact_info a:visited{
+    color: black;
+
+}
+.contact_info a:active{
+    color: black;
+
+}
+                            /*  Galary*/
+.galary_img{
+    padding-top: 150px;
+    padding-left: 4%;
+    
+}
+.galary_img img{
+    padding: 2px;
+    width: auto;
+    height: 250px;
+}
+
+                /* CV */
+
+iframe{
+    margin-top: 40px;
+    width: 44%;
+    height: 1000px;
+    
+
+}
+
+                /*  Contact Form  */
+
+.contactForm{
+    display: flex;
+    padding-top: 150px;
+    justify-content: center;
+   
+}
+
+.form{
+    padding-top: 50px;
+    padding-left: 4%;
+    font-size: 20px;
+    width: 40%;
+    background-color:aliceblue;
+    border-radius: 4%;
+    margin-right: 15%;
+    
+}
+.form h3{
+    font-size: 30px;
+}
+.form label{
+    font-weight: bold;
+    margin-top: 5px;
+    
+}
+.form input{
+
+    margin-bottom: 15px;
+    font-stretch: 16px;
+    color: #999;
+    padding: 14px 20px;
+    width: 35%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background: #fcfcfc;
+
+}
+.form button{
+    font-size: 25px;
+    background-color: rgb(93, 239, 241);
+    outline: none;
+    align-items: center;
+    margin-bottom: 3%;
+}
+.social_media{
+    margin-top: 200px;
+}
+.social_media h1{
+    font-size: 30px;
+
+}
+.social_media img{
+    margin: 0px 5px;
+
+    width: 35px;
+    height: 35px;
+}
