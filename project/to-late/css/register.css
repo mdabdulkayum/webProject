@@ -1,0 +1,127 @@
+
+.container {
+    display: flex;
+    min-height: 90vh;
+}
+
+.left-panel, .right-panel {
+    flex: 1;
+    padding: 40px;
+}
+
+.left-panel {
+    display: flex;
+    justify-content: right;
+    margin: auto;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    word-spacing: 5px;
+    font-size: 50px;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+    letter-spacing: 8px;
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container {
+    max-width: 800px;
+    min-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-type {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.user-type button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: #f0f2f5;
+    cursor: pointer;
+}
+
+.user-type button.active {
+    background: #333;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+form input:focus, form select:focus {
+    border-color: #007bff;
+}
+
+.policy {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.policy input {
+    margin-right: 10px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background: #ff6600;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #e65c00;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+.form-container form .error-msg{
+    margin:10px 0;
+    display: block;
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    }
